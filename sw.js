@@ -1,7 +1,7 @@
 const CACHE_NAME = 'crm-app-v1';
 const urlsToCache = [
   '/',
-  '/crm.html',
+  '/index.html',
   '/manifest.json'
 ];
 
