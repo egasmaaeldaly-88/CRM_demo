@@ -54,7 +54,7 @@ self.addEventListener('fetch', event => {
         });
       })
       .catch(() => {
-        return caches.match('/crm.html');
+        return caches.match('/index.html');
       })
   );
 });
